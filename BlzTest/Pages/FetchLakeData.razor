@@ -1,0 +1,41 @@
+
+@page "/fetchlakedata"
+
+@using BlzTest.Data
+@inject HubbardCountyService CountyService
+
+<h1>Hubbard County Lake Fish</h1>
+
+@if (lakes == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Lake Name</th>
+                <th>Primary Fish</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var lake in lakes)
+            {
+                <tr>
+                    <td>@lake.LakeName</td>
+                    <td>@lake.FishList</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private HubbardCounty[] lakes;
+
+    protected override async Task OnInitializedAsync()
+    {
+        lakes = await CountyService.GetLakesAsync();
+    }
+}
