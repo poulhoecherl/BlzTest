@@ -22,9 +22,10 @@ else
         <tbody>
             @foreach (var lake in lakes)
             {
+
                 <tr>
-                    <td>@lake.LakeName</td>
-                    <td>@lake.FishList</td>
+                    <td>@lake.LakeName.Split(':')[0].ToString()</td>
+                    <td>@lake.FishList.Trim().TrimEnd(',') </td>
                 </tr>
             }
         </tbody>

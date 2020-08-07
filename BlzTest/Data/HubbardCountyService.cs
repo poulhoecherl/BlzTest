@@ -38,13 +38,17 @@ namespace BlzTest.Data
             
             var lakeDataTokens = lakeDataRaw.Split(':');
             
+            var lakeName =  lakeDataTokens[0];
+
             var fishArr =  lakeDataTokens[1];
             
             var fishIndexTokens = fishArr.Split(',');
 
+//            fishList.Append($"{lakeName}:");
+
             foreach(string index in fishIndexTokens){
                 int idx = int.Parse(index);
-                fishList.Append($"{FishData[ idx  -1 ].ToString()}");
+                fishList.Append($"{FishData[ idx  -1 ].ToString()}, ");
             }
             return fishList.ToString();
         }
