@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "BlzTest\\bin": true,
+    "BlzTest\\obj": true,
+    "BlzTest.Data\\bin": true,
+    "BlzTest.Data\\obj": true,
+    "HubbardCountyFish.code-workspace": true,
+    "BlzTest\\appsettings.Development.json": true
+  }
+}

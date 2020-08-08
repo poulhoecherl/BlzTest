@@ -1,10 +1,11 @@
 
 @page "/fetchlakedata"
 
-@using BlzTest.Data
-@inject HubbardCountyService CountyService
+@using BlzTest.Service
+@inject BlzTest.Service.HubbardCountyService CountyService
 
 <h1>Hubbard County Lake Fish</h1>
+
 
 @if (lakes == null)
 {
@@ -33,7 +34,7 @@ else
 }
 
 @code {
-    private HubbardCounty[] lakes;
+    private BlzTest.Data.HubbardCounty[] lakes;
 
     protected override async Task OnInitializedAsync()
     {
