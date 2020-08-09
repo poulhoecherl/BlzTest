@@ -16,7 +16,11 @@ namespace BlzTest.Data
             "Pickerel:1,2,3,4,5,6", "Blue:1,4,5,6", "Bottle:1,9,10", "Spider:2,3,4", "Bad Axe:4,5,6,7", "Mantrap:4,5,6,7", "Big Sand:3,5", "Ida:1,6", "Little Sand:3,4,5,10", "Potato:4,7"
         };
 
+
+
         public static string GetLakeFishList(int lakeIndex){
+
+            Data.Scraper.ScrapeLakeFinder();
 
             var fishList = new StringBuilder();
 
@@ -38,5 +42,6 @@ namespace BlzTest.Data
             }
             return fishList.ToString();
         }
+
     }
 }

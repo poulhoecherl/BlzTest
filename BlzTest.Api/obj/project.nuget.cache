@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "8rnRR96sHh/l8LmLVDMGX55FxXb9lPqPfqA8gYofQtNuE8mY9bCbporcfqDVyV1xu3Ki84ZoxcFcEqoz0ZWdRw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pheck\\Source\\Repos\\BlzTest\\BlzTest.Api\\BlzTest.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pheck\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
+    "C:\\Users\\pheck\\.nuget\\packages\\anglesharp.xml\\0.14.0\\anglesharp.xml.0.14.0.nupkg.sha512",
+    "C:\\Users\\pheck\\.nuget\\packages\\csvhelper\\15.0.5\\csvhelper.15.0.5.nupkg.sha512",
+    "C:\\Users\\pheck\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\pheck\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\pheck\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\pheck\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

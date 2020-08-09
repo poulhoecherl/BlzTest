@@ -1,0 +1,37 @@
+Id,LakeName,DnrNumber,Tier,County,EcoRegion,IsSentinel
+1,Artichoke,06000200,2,Big Stone,Western Corn Belt Plains,Y
+2,Bear Head,69025400,1,St. Louis,Northern Lakes and Forests,Y
+3,Belle,47004901,2,Meeker,North Central Hardwood Forests,Y
+4,Carlos,21005700,1,Douglas,North Central Hardwood Forests,Y
+5,Carrie,34003200,2,Kandiyohi,Western Corn Belt Plains,Y
+6,Cedar,49014000,2,Morrison,North Central Hardwood Forests,Y
+7,Echo,69061500,2,St. Louis,Northern Lakes and Forests (Canadian Shield),Y
+8,Elephant,69081000,2,St. Louis,Northern Lakes and Forests (Canadian Shield),Y
+9,Elk,15001000,1,Clearwater,Northern Lakes and Forests,Y
+10,Greenwood,16007700,1,Cook,Northern Lakes and Forests (Canadian Shield),Y
+11,Hill,01014200,2,Aitkin,Northern Lakes and Forests,Y
+12,Madison,07004400,1,Blue Earth,Western Corn Belt Plains,Y
+13,Pearl,73003700,1,Stearns,North Central Hardwood Forests,Y
+14,Peltier,02000400,2,Anoka,North Central Hardwood Forests,Y
+15,Portage,29025000,2,Hubbard,Northern Lakes and Forests,Y
+16,Red Sand,18038600,2,Crow Wing,Northern Lakes and Forests,Y
+17,Shaokotan,41008900,1,Lincoln,Northern Lakes and Forests,Y
+18,South Center,13002700,2,Chisago,North Central Hardwood Forests,Y
+19,South Twin,44001400,2,Mahnomen,Northern Lakes and Forests,Y
+20,St. James,83004300,2,Watonwan,Western Corn Belt Plains,Y
+21,St. Olaf,81000300,2,Waseca,Western Corn Belt Plains,Y
+22,Tait,16038400,2,Cook,Northern Lakes and Forests (Canadian Shield),Y
+23,Ten Mile,11041300,1,Cass,Northern Lakes and Forests,Y
+24,Trout,16004900,1,Cook,Northern Lakes and Forests (Canadian Shield),Y
+25,White Iron,69000400,2,St. Louis,Northern Lakes and Forests (Canadian Shield),Y
+26,Pickerel,29017800,2,Hubbard,Northern Lakes and Forests,N
+27,Blue,29018400,2,Hubbard,Northern Lakes and Forests,N
+28,Lower Bottle,29018000,2,Hubbard,Northern Lakes and Forests,N
+29,Upper Bottle,29014800,2,Hubbard,Northern Lakes and Forests,N
+30,Bad Axe,29020800,2,Hubbard,Northern Lakes and Forests,N
+31,Mantrap,29015100,1,Hubbard,Northern Lakes and Forests,N
+32,Big Sand,29018500,1,Hubbard,Northern Lakes and Forests,N
+33,Ida,29017000,2,Hubbard,Northern Lakes and Forests,N
+34,Little Sand,29015000,1,Hubbard,Northern Lakes and Forests,N
+35,Potato,29024300,1,Hubbard,Northern Lakes and Forests,N
+36,Mille Lacs,48000200,1,Garrison,North Central Hardwood Forests,N
