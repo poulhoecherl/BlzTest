@@ -27,6 +27,23 @@
             }
         },
         {
+            "name": ".NET Core Launch (web service)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/BlzTest.Api/bin/Debug/netcoreapp3.1/BlzTest.Api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/BlzTest.Api",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach",
