@@ -36,6 +36,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/BlzTest.Api",
             "stopAtEntry": false,
+            
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development"
             },
