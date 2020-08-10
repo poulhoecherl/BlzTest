@@ -2,5 +2,7 @@
 /BlzTest/obj
 /BlzTest.Data/bin
 /BlzTest.Data/obj
+/BlzTest.Api/bin
+/BlzTest.Api/obj
 .vs/BlzTest
 
