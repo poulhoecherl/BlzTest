@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Text;
 
 namespace BlzTest.Data
@@ -6,21 +7,27 @@ namespace BlzTest.Data
     public class FishData
     {
         //https://maps2.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=29025000
-        public static readonly string[] FishList = new[]
-        {
-            "Sunfish", "LargeMouth", "SmallMouth", "Northern", "Walleye", "Perch", "Musky", "Bullhead", "BlueGill", "Crappie"
-        };
+       
+        private void loadData(){
+             string location = System.Reflection.Assembly.GetExecutingAssembly().Location;
 
-        public static readonly string[] LakeData = new[]
-        {
-            "Pickerel:1,2,3,4,5,6", "Blue:1,4,5,6", "Bottle:1,9,10", "Spider:2,3,4", "Bad Axe:4,5,6,7", "Mantrap:4,5,6,7", "Big Sand:3,5", "Ida:1,6", "Little Sand:3,4,5,10", "Potato:4,7"
-        };
+            string filePath = Path.Combine(Path.GetDirectoryName(location),"DataFiles", "LakeIndex.csv");
 
+            if (!File.Exists(filePath))
+                throw new FileNotFoundException($"Bad LakeIndexFile path: {filePath}");
+                
+            // load up the lake index list
+            var lakeList = _Helpers.Csv.ImportLakeIndexLine(filePath);
 
+            foreach (var lake in lakeList)
+            {
+
+            }
+        }
 
         public static string GetLakeFishList(int lakeIndex){
 
-            Data.Scraper.ScrapeLakeFinder();
+            //Data.Scraper.ScrapeLakeFinder();
 
             var fishList = new StringBuilder();
 

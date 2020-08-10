@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
@@ -20,30 +21,39 @@ namespace BlzTest.Data._Helpers
             {
                 List<LakeIndexLine> reVal = new List<LakeIndexLine>();
 
-                using (var reader = new StreamReader(filePath))
-                using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
-                {
-                    csv.Configuration.RegisterClassMap<LakeIndexLineMap>();
-                    var records = csv.GetRecords<LakeIndexLine>();
+                var fishPath = Path.Combine(Path.GetDirectoryName(filePath), "fishList.csv");
+                using (var fishReader = new StreamReader(filePath))
+                using (var fishCsv = new CsvReader(fishReader, CultureInfo.InvariantCulture)){
+                    fishCsv.Configuration.RegisterClassMap<LakeIndexLineMap>();
+                    var fishes = fishCsv.GetRecords<FishLine>();
 
-                    if(records != null)
+                    using (var lakeReader = new StreamReader(filePath))
+                    using (var csv = new CsvReader(lakeReader, CultureInfo.InvariantCulture))
                     {
-                        foreach(var record in records)
+                        csv.Configuration.RegisterClassMap<LakeIndexLineMap>();
+                        var lakes = csv.GetRecords<LakeIndexLine>();
+
+                        if(lakes != null)
                         {
-                            reVal.Add(new LakeIndexLine()
+                            foreach(var record in lakes)
                             {
-                                Id = record.Id,
-                                LakeName = record.LakeName,
-                                County = record.County,
-                                DnrNumber = record.DnrNumber,
-                                EcoRegion = record.EcoRegion,
-                                IsSentinel = record.IsSentinel,
-                                Tier = record.Tier
-                            });
+                                var fishList = (from a in fishes where a.Id == record.Id select a).SingleOrDefault();
+                                
+                                reVal.Add(new LakeIndexLine()
+                                {
+                                    Id = record.Id,
+                                    LakeName = record.LakeName,
+                                    County = record.County,
+                                    DnrNumber = record.DnrNumber,
+                                    EcoRegion = record.EcoRegion,
+                                    IsSentinel = record.IsSentinel,
+                                    Tier = record.Tier,
+                                    FishList = fishList.ToString()
+                                });
+                            }
                         }
                     }
                 }
-
                 return reVal;
             }
             catch (Exception e)
