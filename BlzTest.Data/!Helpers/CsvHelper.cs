@@ -15,7 +15,7 @@ namespace BlzTest.Data._Helpers
     public class Csv
     {
         
-        public static List<LakeIndexLine> ImportLakeIndexLine(string filePath)
+        public static List<LakeIndexLine> LoadLakeData(string filePath)
         {//C:\Users\pheck\Source\Repos\BlzTest\BlzTest.Data\DataFiles\LakeIndex.csv
             try
             {

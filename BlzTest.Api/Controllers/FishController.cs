@@ -37,7 +37,9 @@ namespace BlzTest.Api.Controllers
 
             var fishList = new StringBuilder();
 
-            Data.Scraper.ScrapeLakeFinder();
+            LakeData = Data.LoadLakeData();
+
+            //Data.Scraper.ScrapeLakeFinder();
             //Data.Scraper.ScrapeWiki();
 
             var lakeDataRaw = LakeData[lakeIndex];

@@ -41,7 +41,7 @@ namespace BlzTest.Data
                 throw new FileNotFoundException($"Bad LakeIndexFile path: {filePath}");
                 
             // load up the lake index list
-            var lakeList = _Helpers.Csv.ImportLakeIndexLine(filePath);
+            var lakeList = _Helpers.Csv.LoadLakeData(filePath);
 
             foreach (var lake in lakeList)
             {
