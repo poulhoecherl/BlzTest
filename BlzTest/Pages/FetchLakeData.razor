@@ -2,9 +2,9 @@
 @page "/fetchlakedata"
 
 @using BlzTest.Service
-@inject BlzTest.Service.LakeService CountyService
+@inject BlzTest.Service.LakeService LakeService
 
-<h1>Hubbard County Lake Fish</h1>
+<h1>Fish Inventory</h1>
 
 
 @if (lakes == null)
@@ -34,10 +34,10 @@ else
 }
 
 @code {
-    private BlzTest.Data.Models.LakeIndexLine[] lakes;
+    private BlzTest.Data.Models.Lake[] lakes;
 
     protected override async Task OnInitializedAsync()
     {
-        lakes = await CountyService.GetLakesAsync();
+        lakes = await LakeService.GetLakesAsync();
     }
 }

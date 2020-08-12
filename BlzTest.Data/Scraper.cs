@@ -29,7 +29,7 @@ namespace BlzTest.Data
             
             var config = Configuration.Default.WithXml();
 
-            string surveyAddy = "https://maps2.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=";
+            //string surveyAddy = "https://maps2.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=";
 
             string lakeAddy = "https://www.dnr.state.mn.us/lakefind/lake.html?id=";
 

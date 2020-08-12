@@ -9,24 +9,21 @@ using BlzTest.Data.Models;
 namespace BlzTest.Data
 {
     [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
-    public class Loader{
+    public class LakeData{
 
-        private List<LakeIndexLine> _lakeList = null;
+        private List<Lake> _lakeList = null;
 
-        public List<LakeIndexLine> LakeList { 
+        public List<Lake> LakeList { 
             get{
-                if(LakeList.Any())
-                    return LakeList;
+                if(_lakeList.Any())
+                    return _lakeList;
                 else
                     return LoadLakeData();
             } 
         }
 
-        public List<LakeIndexLine> LoadLakeData(){
+        public List<Lake> LoadLakeData(){
             
-            if(_lakeList.Any())
-                return LakeList;
-
             string location = System.Reflection.Assembly.GetExecutingAssembly().Location;
 
             string filePath = Path.Combine(Path.GetDirectoryName(location),"DataFiles", "LakeIndex.csv");

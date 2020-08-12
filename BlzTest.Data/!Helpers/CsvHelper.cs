@@ -15,23 +15,26 @@ namespace BlzTest.Data._Helpers
     public class Csv
     {
         
-        public static List<LakeIndexLine> LoadLakeData(string filePath)
+        public static List<Lake> LoadLakeData(string filePath)
         {//C:\Users\pheck\Source\Repos\BlzTest\BlzTest.Data\DataFiles\LakeIndex.csv
             try
             {
-                List<LakeIndexLine> reVal = new List<LakeIndexLine>();
+                List<Lake> reVal = new List<Lake>();
 
                 var fishPath = Path.Combine(Path.GetDirectoryName(filePath), "fishList.csv");
                 using (var fishReader = new StreamReader(filePath))
                 using (var fishCsv = new CsvReader(fishReader, CultureInfo.InvariantCulture)){
-                    fishCsv.Configuration.RegisterClassMap<LakeIndexLineMap>();
+
+                    fishCsv.Configuration.RegisterClassMap<FishLineMap>();
+                    
                     var fishes = fishCsv.GetRecords<FishLine>();
 
                     using (var lakeReader = new StreamReader(filePath))
+
                     using (var csv = new CsvReader(lakeReader, CultureInfo.InvariantCulture))
                     {
                         csv.Configuration.RegisterClassMap<LakeIndexLineMap>();
-                        var lakes = csv.GetRecords<LakeIndexLine>();
+                        var lakes = csv.GetRecords<Lake>();
 
                         if(lakes != null)
                         {
@@ -39,7 +42,7 @@ namespace BlzTest.Data._Helpers
                             {
                                 var fishList = (from a in fishes where a.Id == record.Id select a).SingleOrDefault();
                                 
-                                reVal.Add(new LakeIndexLine()
+                                reVal.Add(new Lake()
                                 {
                                     Id = record.Id,
                                     LakeName = record.LakeName,

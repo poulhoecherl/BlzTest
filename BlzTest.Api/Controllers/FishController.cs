@@ -35,31 +35,13 @@ namespace BlzTest.Api.Controllers
         {
             int lakeIndex = 1;
 
-            var fishList = new StringBuilder();
+            var lakeData = new Data.LakeData();
+            
+            var lakes = lakeData.LoadLakeData();
 
-            LakeData = Data.LoadLakeData();
-
-            //Data.Scraper.ScrapeLakeFinder();
-            //Data.Scraper.ScrapeWiki();
-
-            var lakeDataRaw = LakeData[lakeIndex];
-
-            var lakeDataTokens = lakeDataRaw.Split(':');
-
-            var lakeName = lakeDataTokens[0];
-
-            var fishArr = lakeDataTokens[1];
-
-            var fishIndexTokens = fishArr.Split(',');
-
-            //            fishList.Append($"{lakeName}:");
-
-            foreach (string index in fishIndexTokens)
-            {
-                int idx = int.Parse(index);
-                fishList.Append($"{FishList[idx - 1]}, ");
-            }
-            return fishList.ToString();
+            var fishListRaw = lakes.Where(m => m.Id == lakeIndex.ToString()).SingleOrDefault();
+           
+            return fishListRaw.FishList;
         }
     }
 }

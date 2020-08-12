@@ -11,7 +11,7 @@ namespace BlzTest.Data
        
         public static string GetLakeFishList(int lakeIndex){
 
-            var data = new Data.Loader();
+            var data = new Data.LakeData();
             var lakeInfo = data.LakeList.Where(m => m.Id == lakeIndex.ToString()).SingleOrDefault();
             return lakeInfo.FishList;
         }

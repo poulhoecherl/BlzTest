@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BlzTest.Data._Helpers
 {
-    public class LakeIndexLineMap: ClassMap<LakeIndexLine>
+    public class LakeIndexLineMap: ClassMap<Lake>
     {
         public LakeIndexLineMap()
         {

@@ -2,7 +2,7 @@ using System;
 
 namespace BlzTest.Data.Models
 {
-    public class LakeIndexLine
+    public class Lake
     {
         public string Id { get; set; }
 

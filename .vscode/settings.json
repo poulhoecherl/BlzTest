@@ -4,6 +4,8 @@
     "BlzTest\\obj": true,
     "BlzTest.Data\\bin": true,
     "BlzTest.Data\\obj": true,
+    "BlzTest.Api\\bin": true,
+    "BlzTest.Api\\obj": true,
     "HubbardCountyFish.code-workspace": true,
     "BlzTest\\appsettings.Development.json": true
   }
