@@ -3,6 +3,7 @@
 
 @using BlzTest.Service
 @inject BlzTest.Service.LakeService LakeService
+@inject BlzTest.Service.FishService FishService
 
 <h1>Fish Inventory</h1>
 
@@ -25,8 +26,8 @@ else
             {
 
                 <tr>
-                    <td>@lake.LakeName.Split(':')[0].ToString()</td>
-                    <td>@lake.FishList.Trim().TrimEnd(',') </td>
+                    <td>@lake.LakeName</td>
+                    <td>@lake..Trim().TrimEnd(',') </td>
                 </tr>
             }
         </tbody>
@@ -34,10 +35,19 @@ else
 }
 
 @code {
-    private BlzTest.Data.Models.Lake[] lakes;
+    private BlzTest.Data.ViewModels.LakeDto[] lakes;
+    private BlzTest.Data.ViewModels.FishDto[] fishes;
 
     protected override async Task OnInitializedAsync()
     {
         lakes = await LakeService.GetLakesAsync();
+
+        foreach(var lake in lakes)
+        {
+            fishes = await FishService.GetFishForLakeAsync(lake.Id);
+            
+        }
+
+
     }
 }

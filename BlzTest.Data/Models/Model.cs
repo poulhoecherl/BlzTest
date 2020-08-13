@@ -1,12 +1,12 @@
 using System.Collections.Generic;
-using BlzTest.Data.Models;
+
 using Microsoft.EntityFrameworkCore;
 
-namespace BlzTest.Data.Model
+namespace BlzTest.Data.Models
 {
     public class DataContext : DbContext
     {
-        public DbSet<FishLine> Fish { get; set; }
+        public DbSet<Fish> Fish { get; set; }
         public DbSet<Lake> Lake { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options){
@@ -18,8 +18,7 @@ namespace BlzTest.Data.Model
     public class Lake
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-
+        
         public string LakeName { get; set; }
 
         public string DnrNumber { get; set; }
@@ -32,7 +31,6 @@ namespace BlzTest.Data.Model
 
         public string IsSentinel { get; set; }
 
-        public List<Fish> FishList { get; } = new List<Fish>();
     }
 
     public class Fish
@@ -41,6 +39,7 @@ namespace BlzTest.Data.Model
     
         public int LakeId { get; set; }
 
-        public string FishList { get; set; }
+        public string FishName { get; set; }
+
     }
 }

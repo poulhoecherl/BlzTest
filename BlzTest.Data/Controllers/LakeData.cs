@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using BlzTest.Data._Helpers;
+
 using BlzTest.Data.Models;
 
-namespace BlzTest.Data
+namespace BlzTest.Data.Controllers
 {
     [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
     public class LakeData{
@@ -23,18 +23,10 @@ namespace BlzTest.Data
         }
 
         public List<Lake> LoadLakeData(){
+
+            List<Lake> reval = new List<Lake>();
             
-            string location = System.Reflection.Assembly.GetExecutingAssembly().Location;
-
-            string filePath = Path.Combine(Path.GetDirectoryName(location),"DataFiles", "LakeIndex.csv");
-
-            if (!File.Exists(filePath))
-                throw new FileNotFoundException($"Bad LakeIndexFile path: {filePath}");
-                
-            // load up the lake index list
-            _lakeList = Csv.LoadLakeData(filePath);
-
-            return _lakeList;
+            return reval;
         }
 
         private string GetDebuggerDisplay()

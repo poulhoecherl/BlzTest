@@ -1,14 +1,13 @@
 using System;
+using System.Collections.Generic;
 
-namespace BlzTest.Data.Models
+namespace BlzTest.Data.ViewModels
 {
-    public class Lake
+    public class LakeDto
     {
         public string Id { get; set; }
 
         public string LakeName { get; set; }
-
-        public string FishList { get; set; }
 
         public string DnrNumber { get; set; }
 
@@ -19,6 +18,8 @@ namespace BlzTest.Data.Models
         public string EcoRegion { get; set; }
 
         public string IsSentinel { get; set; }
+
+        public List<FishDto> FishList { get; set; }
 
     }
 }

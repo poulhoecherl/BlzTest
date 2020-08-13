@@ -24,47 +24,6 @@ namespace BlzTest.Data
         
         public string[] QueryTerms { get; } = { "" };
 
-        public static async void ScrapeLakeFinder()
-        {
-            
-            var config = Configuration.Default.WithXml();
-
-            //string surveyAddy = "https://maps2.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=";
-
-            string lakeAddy = "https://www.dnr.state.mn.us/lakefind/lake.html?id=";
-
-            string location = System.Reflection.Assembly.GetExecutingAssembly().Location;
-
-            string filePath = Path.Combine(Path.GetDirectoryName(location),"DataFiles", "LakeIndex.csv");
-
-            if (!File.Exists(filePath))
-                throw new FileNotFoundException($"Bad LakeIndexFile path: {filePath}");
-                
-            // load up the lake index list
-            var lakeList = _Helpers.Csv.LoadLakeData(filePath);
-
-            foreach (var lake in lakeList)
-            {
-                string address = $"{lakeAddy}{lake.DnrNumber}";
-
-                var document = await BrowsingContext.New(config).OpenAsync(address);
-
-                // This CSS selector gets the desired content
-                var cellSelector = "#lake > div.row.clearfix > div:nth-child(1)";
-                
-                // Perform the query to get all cells with the content
-                var cells = document.QuerySelectorAll(cellSelector);
-                
-                // We are only interested in the text - select it with LINQ
-                var titles = cells.Select(m => m.TextContent);
-
-                Debug.WriteLine("Overall {0} titles found...", titles.Count());
-
-                foreach (var title in titles)
-                    Debug.WriteLine("* {0}", title.Trim(new[] { '"' }));
-
-            }
-        }
 
         public static async void ScrapeWiki()
         {

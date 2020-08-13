@@ -35,13 +35,11 @@ namespace BlzTest.Api.Controllers
         {
             int lakeIndex = 1;
 
-            var lakeData = new Data.LakeData();
-            
-            var lakes = lakeData.LoadLakeData();
+            var lakeData = new Data.Controllers.LakeData();
 
-            var fishListRaw = lakes.Where(m => m.Id == lakeIndex.ToString()).SingleOrDefault();
-           
-            return fishListRaw.FishList;
+            var lakeList = (from x in lakeData.LakeList select x).Where(m => m.Id == lakeIndex).SingleOrDefault();
+
+            return lakeList.LakeName;
         }
     }
 }
