@@ -27,7 +27,7 @@ else
 
                 <tr>
                     <td>@lake.LakeName</td>
-                    <td>@lake..Trim().TrimEnd(',') </td>
+                    <td>@string.Join(", ", lake.FishList) </td>
                 </tr>
             }
         </tbody>
@@ -35,19 +35,11 @@ else
 }
 
 @code {
-    private BlzTest.Data.ViewModels.LakeDto[] lakes;
-    private BlzTest.Data.ViewModels.FishDto[] fishes;
+    private List<BlzTest.Data.ViewModels.LakeDto> lakes;
+    private List<BlzTest.Data.ViewModels.FishDto> fishes;
 
     protected override async Task OnInitializedAsync()
     {
         lakes = await LakeService.GetLakesAsync();
-
-        foreach(var lake in lakes)
-        {
-            fishes = await FishService.GetFishForLakeAsync(lake.Id);
-            
-        }
-
-
     }
 }

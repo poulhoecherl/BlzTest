@@ -5,7 +5,7 @@ namespace BlzTest.Data.ViewModels
 {
     public class LakeDto
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public string LakeName { get; set; }
 
