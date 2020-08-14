@@ -21,5 +21,10 @@ namespace BlzTest.Data.ViewModels
 
         public List<FishDto> FishList { get; set; }
 
+        public string FishCsv { get {
+                return string.Join(',', this.FishList);
+            }
+        }
+
     }
 }

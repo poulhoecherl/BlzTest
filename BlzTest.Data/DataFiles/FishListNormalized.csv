@@ -1,0 +1,817 @@
+Id,FishList
+1,black bullhead
+1,black crappie
+1,bluegill
+1,brown 
+1,bullhead, 
+1,bullheads
+1,burbot
+1,green
+1,sunfish
+1,hybrid sunfish
+1,largemouth bass
+1,muskellunge
+1,northern pike
+1,pumpkinseed
+1,rock bass
+1,smallmouth bass
+1,tullibee (cisco)
+1,walleye
+1,yellow bullhead
+1,yellow perch
+1,bowfin (dogfish)
+1,common carp
+1,shorthead redhorse
+1,white sucker
+1,bluntnose minnow
+1,brook silverside
+1,golden shiner
+1,Iowa darter
+1,Johnny darter
+1,logperch
+1,longnose dace
+1,mimic shiner
+1,mottled sculpin
+1,slimy sculpin
+1,spottail shiner
+1,tadpole madtom
+1,trout-perch
+2,black crappie
+2,bluegill
+2,burbot
+2,green sunfish
+2,hybrid sunfish
+2,largemouth bass
+2,northern pike
+2,pumpkinseed
+2,sunfish
+2,walleye
+2,yellow perch
+2,white sucker
+3,black bullhead
+3,black crappie
+3,bluegill
+3,brown bullhead
+3,green sunfish
+3,hybrid sunfish
+3,largemouth bass
+3,northern pike
+3,orangespotted sunfish
+3,pumpkinseed
+3,sunfish
+3,walleye
+3,white crappie
+3,yellow bullhead
+3,yellow perch
+3,bigmouth buffalo
+3,bowfin (dogfish)
+3,common carp
+3,redhorse
+3,white sucker
+3,fathead minnow
+3,golden shiner
+3,Iowa darter
+3,spottail shiner
+3,tadpole madtom
+4,black crappie
+4,bluegill
+4,brown bullhead
+4,brown trout
+4,green sunfish
+4,hybrid sunfish
+4,largemouth bass
+4,northern pike
+4,pumpkinseed
+4,rock bass
+4,smallmouth bass
+4,tullibee (cisco)
+4,walleye
+4,yellow bullhead
+4,yellow perch
+4,bowfin (dogfish)
+4,common carp
+4,greater redhorse
+4,redhorse
+4,shorthead redhorse
+4,silver redhorse
+4,white sucker
+5, black bullhead
+5,black crappie
+5,bluegill
+5,brown bullhead
+5,channel catfish
+5,green sunfish
+5,hybrid sunfish
+5,largemouth bass
+5,northern pike
+5,orangespotted sunfish
+5,walleye
+5,white crappie
+5,yellow bullhead
+5,yellow perch
+5,bigmouth buffalo
+5,bowfin (dogfish)
+5,common carp
+5,white sucker
+5,bluntnose minnow
+5,fathead minnow
+5,golden shiner
+5,Iowa darter
+5,Johnny darter
+5,spottail shiner
+6,black bullhead
+6,black crappie
+6,bluegill
+6,brown bullhead
+6,green sunfish
+6,hybrid sunfish
+6,largemouth bass
+6,northern pike
+6,pumpkinseed
+6,rock bass
+6,sunfish
+6,tullibee (cisco)
+6,walleye
+6,yellow bullhead
+6,yellow perch
+6,bowfin (dogfish)
+6,white sucker
+6,banded killifish
+6,blackchin shiner
+6,blacknose shiner
+6,bluntnose minnow
+6,brook silverside
+6,brook stickleback
+6,central mudminnow
+6,Iowa darter
+6,Johnny darter
+6,least darter
+6,pugnose shiner
+6,spottail shiner
+6,tadpole madtom
+7,black crappie
+7,bluegill
+7,burbot
+7,hybrid sunfish
+7,largemouth bass
+7,northern pike
+7,pumpkinseed
+7,rock bass
+7,smallmouth bass
+7,walleye
+7,yellow perch
+7,redhorse
+7,shorthead redhorse
+7,white sucker
+8,black crappie
+8,bluegill
+8,brown bullhead
+8,crappie
+8,hybrid sunfish
+8,northern pike
+8,pumpkinseed
+8,smallmouth bass
+8,walleye
+8,yellow perch
+8,white sucker
+8,blacknose shiner
+8,golden shiner
+8,Iowa darter
+8,Johnny darter
+9,black crappie
+9,bluegill
+9,brown bullhead
+9,hybrid sunfish
+9,largemouth bass
+9,muskellunge
+9,northern pike
+9,pumpkinseed
+9,rock bass
+9,tullibee (cisco)
+9,walleye
+9,yellow perch
+9,white sucker
+9,banded killifish
+9,blackchin shiner
+9,blacknose shiner
+9,bluntnose minnow
+9,central mudminnow
+9,common shiner
+9,emerald shiner
+9,golden shiner
+9,Iowa darter
+9,mimic shiner
+9,mottled sculpin
+9,tadpole madtom
+10,brook trout
+10,cisco species
+10,green sunfish
+10,lake trout
+10,lake whitefish
+10,northern pike
+10,rainbow trout
+10,smallmouth bass
+10,splake
+10,tullibee (cisco)
+10,walleye
+10,yellow perch
+10,white sucker
+10,creek chub
+10,golden shiner
+11, black bullhead
+11,black crappie
+11,bluegill
+11,brook trout
+11,brown bullhead
+11,burbot
+11,hybrid sunfish
+11,largemouth bass
+11,northern pike
+11,pumpkinseed
+11,rock bass
+11,walleye
+11,yellow bullhead
+11,yellow perch
+11,bigmouth buffalo
+11,bowfin (dogfish)
+11,shorthead redhorse
+11,white sucker
+11,banded killifish
+11,blacknose shiner
+11,bluntnose minnow
+11,common shiner
+11,creek chub
+11,golden shiner
+11,Iowa darter
+11,Johnny darter
+11,slender madtom
+11,spottail shiner
+11,tadpole madtom
+12,black bullhead
+12,black crappie
+12,bluegill
+12,bullheads
+12,channel catfish
+12,crappie
+12,green sunfish
+12,hybrid sunfish
+12,largemouth bass
+12,northern pike
+12,pumpkinseed
+12,sunfish
+12,walleye
+12,white bass
+12,white crappie
+12,yellow bullhead
+12,yellow perch
+12,bigmouth buffalo
+12,bowfin (dogfish)
+12,common carp
+12,freshwater drum
+12,highfin carpsucker
+12,longnose gar
+12,river carpsucker
+12,shortnose gar
+12,white sucker
+12,bluntnose minnow
+12,emerald shiner
+12,fathead minnow
+12,gizzard shad
+12,golden shiner
+12,Iowa darter
+12,Johnny darter
+12,logperch
+12,minnows
+12,spottail shiner
+13,black bullhead
+13,black crappie
+13,bluegill
+13,brown bullhead
+13,green sunfish
+13,hybrid sunfish
+13,largemouth bass
+13,northern pike
+13,pumpkinseed
+13,walleye
+13,yellow bullhead
+13,yellow perch
+13,bowfin (dogfish)
+13,white sucker
+13,banded killifish
+13,blackchin shiner
+13,blacknose shiner
+13,bluntnose minnow
+13,brook stickleback
+13,fathead minnow
+13,golden shiner
+13,Iowa darter
+13,Johnny darter
+13,spottail shiner
+13,tadpole madtom
+14,black bullhead
+14,black crappie
+14,bluegill
+14,brown bullhead
+14,channel catfish
+14,green sunfish
+14,hybrid sunfish
+14,largemouth bass
+14,muskellunge
+14,northern pike
+14,pumpkinseed
+14,walleye
+14,white crappie
+14,yellow bullhead
+14,yellow perch
+14,bigmouth buffalo
+14,bowfin (dogfish)
+14,common carp
+14,white sucker
+14,bluntnose minnow
+14,brook silverside
+14,central mudminnow
+14,common shiner
+14,emerald shiner
+14,fathead minnow
+14,golden shiner
+14,Johnny darter
+14,spottail shiner
+15,black bullhead
+15,black crappie
+15,bluegill
+15,brown bullhead
+15,bullheads
+15,largemouth bass
+15,northern pike
+15,pumpkinseed
+15,rock bass
+15,walleye
+15,yellow bullhead
+15,yellow perch
+15,white sucker
+15,golden shiner
+16,black bullhead
+16,black crappie
+16,bluegill
+16,brown bullhead
+16,hybrid sunfish
+16,largemouth bass
+16,northern pike
+16,pumpkinseed
+16,sunfish
+16,walleye
+16,yellow bullhead
+16,yellow perch
+16,bowfin (dogfish)
+16,white sucker
+16,central mudminnow
+16,golden shiner
+16,Iowa darter
+17, black bullhead
+17,black crappie
+17,bluegill
+17,green sunfish
+17,hybrid sunfish
+17,northern pike
+17,orangespotted sunfish
+17,pumpkinseed
+17,walleye
+17,yellow perch
+17,common carp
+17,white sucker
+17,bluntnose minnow
+17,brook stickleback
+17,fathead minnow
+17,golden shiner
+17,Johnny darter
+18,black bullhead
+18,black crappie
+18,bluegill
+18,brown bullhead
+18,green sunfish
+18,hybrid sunfish
+18,largemouth bass
+18,northern pike
+18,pumpkinseed
+18,walleye
+18,yellow bullhead
+18,yellow perch
+18,bowfin (dogfish)
+18,common carp
+18,white sucker
+18,bluntnose minnow
+18,common shiner
+18,golden shiner
+18,Johnny darter
+19,black bullhead
+19,black crappie
+19,bluegill
+19,brown bullhead
+19,green sunfish
+19,hybrid sunfish
+19,largemouth bass
+19,northern pike
+19,pumpkinseed
+19,rock bass
+19,tullibee (cisco)
+19,walleye
+19,yellow bullhead
+19,yellow perch
+19,white sucker
+20,black bullhead
+20,black crappie
+20,bluegill
+20,brown bullhead
+20,channel catfish
+20,green sunfish
+20,hybrid sunfish
+20,largemouth bass
+20,northern pike
+20,orangespotted sunfish
+20,pumpkinseed
+20,walleye
+20,white crappie
+20,yellow bullhead
+20,yellow perch
+20,common carp
+20,white sucker
+21,black bullhead
+21,black crappie
+21,bluegill
+21,green sunfish
+21,hybrid sunfish
+21,largemouth bass
+21,northern pike
+21,pumpkinseed
+21,sauger
+21,walleye
+21,white crappie
+21,yellow bullhead
+21,yellow perch
+21,common carp
+21,white sucker
+21,bluntnose minnow
+21,golden shiner
+21,Johnny darter
+22,bluegill
+22,northern pike
+22,pumpkinseed
+22,walleye
+22,yellow perch
+22,white sucker
+22,blacknose shiner
+22,central mudminnow
+22,common shiner
+22,finescale dace
+22,golden shiner
+23,black bullhead
+23,black crappie
+23,bluegill
+23,brown bullhead
+23,hybrid sunfish
+23,lake whitefish
+23,largemouth bass
+23,northern pike
+23,northern sunfish
+23,pumpkinseed
+23,rainbow trout
+23,rock bass
+23,smallmouth bass
+23,tullibee (cisco)
+23,walleye
+23,yellow bullhead
+23,yellow perch
+23,bowfin (dogfish)
+23,common carp
+23,redhorse
+23,white sucker
+23,banded killifish
+23,blackchin shiner
+23,blacknose shiner
+23,bluntnose minnow
+23,brook stickleback
+23,central mudminnow
+23,emerald shiner
+23,golden shiner
+23,Iowa darter
+23,Johnny darter
+23,least darter
+23,logperch
+23,longnose dace
+23,mimic shiner
+23,mottled sculpin
+23,pugnose shiner
+23,spottail shiner
+24,rook trout
+24,brown trout
+24,lake trout
+24,rainbow trout
+24,tullibee (cisco)
+24,yellow perch
+24,white sucker
+24,brook stickleback
+24,central mudminnow
+24,common shiner
+24,creek chub
+24,fathead minnow
+24,finescale dace
+24,golden shiner
+24,Iowa darter
+24,mottled sculpin
+24,northern pearl dace
+24,rainbow smelt
+24,sculpin
+24,slimy sculpin
+25,black crappie
+25,bluegill
+25,burbot
+25,cisco species
+25,lake whitefish
+25,largemouth bass
+25,northern pike
+25,rock bass
+25,smallmouth bass
+25,tiger muskellunge
+25,tullibee (cisco)
+25,walleye
+25,yellow perch
+25,white sucker
+25,bluntnose minnow
+25,golden shiner
+25,Johnny darter
+25,spottail shiner
+26, black bullhead
+26,black crappie
+26,bluegill
+26,brown bullhead
+26,hybrid sunfish
+26,largemouth bass
+26,muskellunge
+26,northern pike
+26,pumpkinseed
+26,rock bass
+26,walleye
+26,yellow bullhead
+26,yellow perch
+26,white sucker
+26,banded killifish
+26,blackchin shiner
+26,blacknose shiner
+26,bluntnose minnow
+26,brook stickleback
+26,central mudminnow
+26,golden shiner
+26,Iowa darter
+26,Johnny darter
+27, black bullhead
+27,black crappie
+27,bluegill
+27,brown bullhead
+27,hybrid sunfish
+27,largemouth bass
+27,northern pike
+27,pumpkinseed
+27,rainbow trout
+27,rock bass
+27,smallmouth bass
+27,tullibee (cisco)
+27,walleye
+27,yellow bullhead
+27,yellow perch
+27,redhorse
+27,white sucker
+27,common shiner
+27,golden shiner
+27,Johnny darter
+27,logperch
+28,black bullhead
+28,black crappie
+28,bluegill
+28,brown bullhead
+28,largemouth bass
+28,muskellunge
+28,northern pike
+28,pumpkinseed
+28,rock bass
+28,smallmouth bass
+28,tullibee (cisco)
+28,walleye
+28,yellow bullhead
+28,yellow perch
+28,shorthead redhorse
+28,white sucker
+28,common shiner
+28,golden shiner
+29,black bullhead
+29,black crappie
+29,bluegill
+29,brown bullhead
+29,largemouth bass
+29,northern pike
+29,pumpkinseed
+29,rock bass
+29,smallmouth bass
+29,tullibee (cisco)
+29,walleye
+29,yellow bullhead
+29,yellow perch
+29,shorthead redhorse
+29,white sucker
+29,common shiner
+29,shiners
+30,black crappie
+30,bluegill
+30,brown bullhead
+30,hybrid sunfish
+30,largemouth bass
+30,muskellunge
+30,northern pike
+30,pumpkinseed
+30,rock bass
+30,smallmouth bass
+30,sunfish
+30,tullibee (cisco)
+30,walleye
+30,yellow bullhead
+30,yellow perch
+30,white sucker
+30,banded killifish
+30,blackchin shiner
+30,blacknose shiner
+30,bluntnose minnow
+30,golden shiner
+30,Iowa darter
+30,Johnny darter
+30,logperch
+30,mottled sculpin
+30,spottail shiner
+31,black bullhead
+31,black crappie
+31,bluegill
+31,brown bullhead
+31,hybrid sunfish
+31,largemouth bass
+31,muskellunge
+31,northern pike
+31,pumpkinseed
+31,rock bass
+31,smallmouth bass
+31,tullibee (cisco)
+31,walleye
+31,yellow bullhead
+31,yellow perch
+31,shorthead redhorse
+31,white sucker
+31,banded killifish
+31,blacknose shiner
+31,bluntnose minnow
+31,brook stickleback
+31,central mudminnow
+31,golden shiner
+31,Iowa darter
+31,Johnny darter
+31,spottail shiner
+32,black bullhead
+32,black crappie
+32,bluegill
+32,brown bullhead
+32,bullheads
+32,green sunfish
+32,hybrid sunfish
+32,largemouth bass
+32,muskellunge
+32,northern pike
+32,northern pike (silver phase)
+32,pumpkinseed
+32,rock bass
+32,smallmouth bass
+32,tullibee (cisco)
+32,walleye
+32,yellow bullhead
+32,yellow perch
+32,redhorse
+32,shorthead redhorse
+32,white sucker
+32,banded killifish
+32,blacknose shiner
+32,bluntnose minnow
+32,central mudminnow
+32,common shiner
+32,creek chub
+32,fathead minnow
+32,golden shiner
+32,Iowa darter
+32,Johnny darter
+32,logperch
+32,mimic shiner
+32,mottled sculpin
+32,spottail shiner
+33,black bullhead
+33,black crappie
+33,bluegill
+33,brown bullhead
+33,hybrid sunfish
+33,largemouth bass
+33,muskellunge
+33,northern pike
+33,pumpkinseed
+33,rock bass
+33,smallmouth bass
+33,walleye
+33,yellow bullhead
+33,yellow perch
+33,shorthead redhorse
+33,white sucker
+34,black bullhead
+34,black crappie
+34,bluegill
+34,brown bullhead
+34,green sunfish
+34,hybrid sunfish
+34,largemouth bass
+34,muskellunge
+34,northern pike
+34,northern pike (silver phase)
+34,pumpkinseed
+34,rock bass
+34,smallmouth bass
+34,tullibee (cisco)
+34,walleye
+34,yellow bullhead
+34,yellow perch
+34,white sucker
+34,banded killifish
+34,blackchin shiner
+34,central mudminnow
+34,common shiner
+34,Iowa darter
+34,Johnny darter
+35,black bullhead
+35,black crappie
+35,bluegill
+35,brown bullhead
+35,hybrid sunfish
+35,largemouth bass
+35,northern pike
+35,pumpkinseed
+35,rock bass
+35,smallmouth bass
+35,sunfish
+35,tullibee (cisco)
+35,walleye
+35,yellow bullhead
+35,yellow perch
+35,shorthead redhorse
+35,white sucker
+35,banded killifish
+35,bigmouth shiner
+35,blackchin shiner
+35,blacknose shiner
+35,bluntnose minnow
+35,common shiner
+35,fathead minnow
+35,golden shiner
+35,Iowa darter
+35,Johnny darter
+35,least darter
+35,logperch
+35,mimic shiner
+35,mottled sculpin
+35,spottail shiner
+35,tadpole madtom
+35,weed shiner
+36,black bullhead
+36,black crappie
+36,bluegill
+36,brown bullhead
+36,bullheads
+36,burbot
+36,green sunfish
+36,hybrid sunfish
+36,largemouth bass
+36,muskellunge
+36,northern pike
+36,pumpkinseed
+36,rock bass
+36,smallmouth bass
+36,tullibee (cisco)
+36,walleye
+36,yellow bullhead
+36,yellow perch
+36,bowfin (dogfish)
+36,common carp
+36,shorthead redhorse
+36,white sucker
+36,bluntnose minnow
+36,brook silverside
+36,golden shiner
+36,Iowa darter
+36,Johnny darter
+36,logperch
+36,longnose dace
+36,mimic shiner
+36,mottled sculpin
+36,slimy sculpin
+36,spottail shiner
+36,tadpole madtom
+36,trout-perch

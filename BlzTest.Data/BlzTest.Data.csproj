@@ -18,8 +18,6 @@
 
   <ItemGroup>
     <Folder Include="!Helpers\" />
-    <Folder Include="DataFiles\" />
-    <Folder Include="Migrations\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,6 +37,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="DataFiles\FishListNonNormalized.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="DataFiles\FishList.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
